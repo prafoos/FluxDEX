@@ -1,0 +1,11 @@
+node_modules/
+.env*
+!.env.example
+!**/.env.example
+.next/
+coverage/
+artifacts/
+cache/
+typechain-types/
+*.tsbuildinfo
+frontend/src/constants/contracts.json.tmp

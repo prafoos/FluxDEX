@@ -1,0 +1,16 @@
+{
+  "name": "qms-swap-dex",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "contracts",
+    "frontend"
+  ],
+  "scripts": {
+    "compile": "npm run compile --workspace contracts",
+    "test": "npm run test --workspace contracts",
+    "deploy:testnet": "npm run deploy:testnet --workspace contracts",
+    "dev": "npm run dev --workspace frontend",
+    "build": "npm run build --workspace frontend"
+  }
+}
